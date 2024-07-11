@@ -5,13 +5,13 @@ namespace App\Message;
 class PurchaseConfirmationNotification
 {
     public function __construct(
-        private object $order
+        private int|string $order
     )
     {
 
     }
 
-    public function getOrder(): object
+    public function getOrderId(): int|string
     {
         return $this->order;
     }

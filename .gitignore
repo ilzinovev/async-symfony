@@ -186,3 +186,7 @@ fabric.properties
 .idea/
 
 docker-compose.override.yaml
+
+mysql
+
+composer.lock
